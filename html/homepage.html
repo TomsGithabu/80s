@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homepage</title>
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+<body>
+<div class="homepage_all">
+    <div class="homepage_up"><!--首页最顶部的一些页面-->
+        <div class="homepage_logo"><!--首页logo-->
+            <a href="#"><img src="../images/logo.jpg" alt=""></a>
+        </div>
+        <div class="homepage_search"><!--首页搜索-->
+            <input class="homepage_search_text" type="text" placeholder="站内搜索..."><!--首页搜索框-->
+            <input class="homepage_search_btn" type="submit" value="搜索"/><!--首页搜索按钮-->
+        </div>
+        <div class="homepage_search_recommend"><!--首页推荐-->
+            <ul>
+                <a href="#"><li>白蛇缘起</li></a>
+                <a href="#"><li>绿皮书</li></a>
+                <a href="#"><li>纸牌屋</li></a>
+                <a href="#"><li>无双</li></a>
+                <a href="#"><li>倚天屠龙记</li></a>
+                <a href="#"><li>蜘蛛侠</li></a>
+                <a href="#"><li>你好之华</li></a>
+                <a href="#"><li>驯龙高手</li></a>
+                <a href="#"><li>都挺好</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="homepage_menu">
+    <!--顶部菜单栏-->
+    <div class="homepage_menu_1">
+            <ul>
+                <a href="#"><li>首页</li></a>
+                <a href="#"><li>电影</li></a>
+                <a href="#"><li>电视剧</li></a>
+                <a href="#"><li>动漫</li></a>
+                <a href="#"><li>综艺</li></a>
+                <a href="#"><li>音乐MV</li></a>
+                <a href="#"><li>视频短片</li></a>
+                <a href="#"><li>公开课</li></a>
+                <a href="#"><li>热门影片</li></a>
+                <a href="#"><li>电影专题</li></a>
+                <a href="#"><li>最近更新</li></a>
+            </ul>
+    </div>
+        <div class="homepage_menu_2">
+            <ul>
+                <li><strong><a href="#">2019电影</a></strong>&nbsp;&nbsp;|</li>
+                <li><a href="#">国语电影</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">喜剧片</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">动作片</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">恐怖片</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">爱情片</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">评分最高</a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><strong><a href="#">电视剧</a></strong>&nbsp;&nbsp;|</li>
+                <li><a href="#">大陆剧</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">日韩剧</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">欧美剧</a>&nbsp;&nbsp;|</li>
+                <li><a href="#">港台剧</a>&nbsp;&nbsp;</li>
+            </ul>
+        </div>
+
+    </div>
+<!--上面热门推荐-->
+    <div class="homepage_hot"><!--首页热门推荐-->
+        <div class="homepage_hot_frame"><!--frame:框 热门推荐栏-->
+            <ul>
+                <li id="homepage_hot_movie">热门手机电影</li>
+                <li id="homepage_hot_television">热门电视剧</li>
+                <li id="homepage_hot_animation">热门动漫</li>
+                <li id="homepage_hot_variety">热门综艺</li>
+                <li id="homepage_hot_music">热门音乐MV</li>
+            </ul>
+        </div>
+        <!--热门推荐图片,每一个包含六张图片及信息    -->
+        <div class="homepage_hot_images">
+            <!--<div class="homepage_hot_image_1">-->
+                <!--<a href="#"><img src="../images/fengkuangdewaixingren.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">疯狂的外星人</a></h4></span>-->
+            <!--</div>-->
+            <!--<div class="homepage_hot_image_2">-->
+                <!--<a href="#"><img src="../images/lvpishu.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">绿皮书</a></h4></span>-->
+            <!--</div>-->
+            <!--<div class="homepage_hot_image_3">-->
+                <!--<a href="#"><img src="../images/xinxijvzhiwang.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">新喜剧之王</a></h4></span>-->
+            <!--</div>-->
+            <!--<div class="homepage_hot_image_4">-->
+                <!--<a href="#"><img src="../images/baisheyuanqi.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">白蛇：缘起</a></h4></span>-->
+            <!--</div>-->
+            <!--<div class="homepage_hot_image_5">-->
+                <!--<a href="#"><img src="../images/darenwu.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">大人物/中国版老手</a></h4></span>-->
+            <!--</div>-->
+            <!--<div class="homepage_hot_image_6">-->
+                <!--<a href="#"><img src="../images/haiwang.jpg" alt=""></a>-->
+                <!--&lt;!&ndash;<span>分类图标</span>&ndash;&gt;-->
+                <!--<span><h4><a href="#">海王</a></h4></span>-->
+            <!--</div>-->
+            <div class="hotMain">
+                <div class="hotItem">
+                    <a href="#"><img src="../images/fengkuangdewaixingren.jpg" alt=""></a>
+                    <!--<span>分类图标</span>-->
+                    <span><h4><a href="#">疯狂的外星人</a></h4></span>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/lvpishu.jpg" alt="">
+                    </a>
+                    <h4><a href="#">绿皮书</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/xinxijvzhiwang.jpg" alt="">
+                    </a>
+                    <h4><a href="#">新喜剧之王</a></h4></div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/baisheyuanqi.jpg" alt="">
+                    </a>
+                    <h4><a href="#">白蛇：缘起</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/darenwu.jpg" alt="">
+                    </a>
+                    <h4><a href="#">大人物/中国版老手</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/haiwang.jpg" alt="">
+                    </a>
+                    <h4><a href="#">海王</a></h4>
+                </div>
+            </div>
+
+
+
+
+            <div class="hotMain">
+                <div class="hotItem">
+                    <a href="#"><img src="../images/yitiantulongji2019.jpg" alt=""></a>
+                    <!--<span>分类图标</span>-->
+                    <span><h4><a href="#">疯狂的外星人</a></h4></span>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/huangjintong.jpg" alt="">
+                    </a>
+                    <h4><a href="#">绿皮书</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/doutinghao.jpg" alt="">
+                    </a>
+                    <h4><a href="#">新喜剧之王</a></h4></div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/xiangcunaiqingkuangxiangqu.jpg" alt="">
+                    </a>
+                    <h4><a href="#">白蛇：缘起</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/guichuidengzhinuqingxiangxi.jpg" alt="">
+                    </a>
+                    <h4><a href="#">大人物/中国版老手</a></h4>
+                </div>
+                <div class="hotItem">
+                    <a href="#">
+                        <img src="../images/fuermoshinai.jpg" alt="">
+                    </a>
+                    <h4><a href="#">海王</a></h4>
+                </div>
+            </div>
+            <div class="hotMain">
+                dfgh
+            </div>
+            <div class="hotMain">
+                asd
+            </div>
+            <div class="hotMain">
+                qwe
+            </div>
+        </div>
+        <div class="homepage_hot_text">
+            <table class="homepage_hot_text_items">
+                <tr>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                    <td><a href="#">1&nbsp;.&nbsp;狄仁杰之无头神将</a><span>&nbsp;/&nbsp;国语</span></td>
+                </tr>
+
+                <!--<tr><a href="#">1.狄仁杰之无头神将</a></tr>-->
+                <!--<span>/国语</span>-->
+                <!--<li><a href="#">2.尸控警戒</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+                <!--<li><a href="#">1.狄仁杰之无头神将</a></li>-->
+                <!--<span>/英语</span>-->
+            </table>
+        </div>
+    </div>
+    <br/>
+    <!--最新电影-->
+    <div class="new_others">
+        <div class="new_othersitems">
+            <span>最新电影</span><hr style="border: solid 1px #808080"/>
+            <ul>
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--</li>-->
+
+            </ul>
+            <p style="display: inline-block;float: right;margin-top: 10px"><a href="#">更多电影....</a></p>
+        </div>
+        <!--<div class="new_othersitems">-->
+            <!--<span>最新电影</span><hr style="border: solid 1px #808080"/>-->
+            <!--<ul>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+            <!--<p style="display: inline-block;float: right;margin-top: 10px"><a href="#">更多电影....</a></p>-->
+        <!--</div>-->
+        <!--<div class="new_othersitems">-->
+            <!--<span>最新电影</span><hr style="border: solid 1px #808080"/>-->
+            <!--<ul>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--<li><a href="#"><img src="../images/darenwu.jpg" alt=""></a><a href="#">速成家庭</a><br/><span>一部关于中西方教育的比较和学习 更新至BD中英双字</span></li>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+            <!--<p style="display: inline-block;float: right;margin-top: 10px"><a href="#">更多电影....</a></p>-->
+        <!--</div>-->
+        <!--右边一列的推荐-->
+        <div class="new_items">
+            <div class="new_items_items">
+                <li>最新影视</li>
+                <li>最新上映</li>
+                <li>热门电影</li>
+                <li>热门电视剧</li>
+            </div>
+            <div class="new_items_detail">
+                <ul>
+                    <!--<li>1&nbsp;.&nbsp;[大陆剧] <a href="#">黄金瞳</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+                    <!--<li>2&nbsp;.&nbsp;[动漫]&nbsp;&nbsp;<a href="#">队长小翼/新足球小将</a></li>-->
+
+                </ul>
+            </div>
+            <div class="new_items_detail">
+                <ul>
+                    <li>1 [大陆剧] <a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+                    <li>2 [动漫]<a href="#">黄金瞳</a></li>
+
+                </ul>
+            </div>
+            <div class="new_items_detail">
+                <ul>
+                    <li>1 [大陆剧] <a href="#">大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">大陆剧/大陆剧</a></li>
+
+                </ul>
+            </div>
+            <div class="new_items_detail">
+                <ul>
+                    <li>1 [大陆剧] <a href="#">动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+                    <li>2&nbsp.&nbsp[动漫]&nbsp&nbsp<a href="#">动漫/动漫</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function(){
+       // var movie=document.getElementById("homepage_hot_movie");
+       // movie.onmouseover=function(){
+       //   movie.style.display='block';
+       // };
+       // movie.onmouseover=function(){
+       //   movie.style.display='none';
+       // };
+        // mouseenter mouseleave mouseover mouseout
+
+        //mouseenter mouseleave不会事件冒泡      // mouseover mouseout 会事件冒泡
+        $(".homepage_hot li").mouseenter(function(){
+            var i = $(".homepage_hot li").index(this);
+            $(".hotMain").eq(i).css({
+                'z-index': 1      //鼠标放上去的显示
+            }).siblings().css({   //其余的为0
+                'z-index': 0
+            });
+        });
+        // 右边一列的推荐
+        $(".new_items li").mouseenter(function () {
+           var a= $(".new_items li").index(this);
+           $(".new_items_detail").eq(a).css({
+               'z-index':2
+           }).siblings().css({
+              'z-index':0
+           });
+        });
+
+
+
+
+        /*各热门推荐*/
+        $.ajax({
+            method: 'get',
+            url: 'http://127.0.0.1:8081/',
+            success: function(data){
+                if(data.status) {
+                    var main = '';
+                    data.data.forEach(function (value) {
+                        main += `<div class="hotItem">
+                    <a><img src="${value.img}" alt="${value.name}"></a>
+                    <h4><a href="${value.href}">${value.name}</a></h4>
+                    </div>`;
+                    });
+                    for(var i=0;i<6;i++){
+                        $(".hotMain").eq(i).html(main);
+                    }
+                }
+            },
+            error: function(err){
+                console.error(err);
+            }
+        });
+        /*最新电影*/
+        $.ajax({
+           method: 'get',
+            url:'http://127.0.0.1:8081/',
+            success:function(data){
+            if(data.status){
+                    var movie='';
+                    data.data.forEach(function (value) {
+                        movie += `<li><a href="${value.href}">
+                          <img src=${value.img} alt=${value.img}></a>
+                         <a href="${value.href}">${value.name}</a><br/>
+                         <span>${value.span}</span></li>`;
+                    });
+                    // console.log(value);
+                    $(".new_othersitems ul").eq(0).html(movie);
+                }
+
+                },
+            error:function(err){
+            console.error(err);
+            }
+
+        });
+
+        /*右边一列的推荐*/
+        $.ajax({
+            method:'get',
+           url:'http://127.0.0.1:8081/',
+            success:function(data){
+                if(data.status){
+                    var newsdetail='<ul>';
+                    data.data.forEach(function (value){
+                        newsdetail +=`<li><a href="">${value.name}</a></li>`;
+                    });
+                    newsdetail +='</ul>';
+                    $(".new_items_detail").eq(0).html(newsdetail);
+                }
+            },
+            error:function(err) {
+                console.error(err);
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>

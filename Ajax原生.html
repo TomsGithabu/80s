@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+
+
+<script>
+    //创建ajax对象
+    if(window.XMLHttpRequest){
+        var xml=new XMLHttpRequest();
+    }else if(window.ActiveXObject){
+        var xml=new ActiveXObject('Microsoft.XMLHTTP');
+    }else {
+        error();
+    }
+//连接服务器
+    xml.open('get',url,true);
+    //发送请求
+        xml.send();
+        //接收返回
+    xml.onreadystatechange = function () {
+        if(xml.readyState === 4){
+            if(xml.status === 200 || xml.status === 304){
+                //请求成功
+                //收到的返回数据，responseText和responseXML
+                var data = xml.responseText;
+                success(data);
+                if(com!=''){
+                    com();
+                }else{
+                    //请求失败
+                    error();
+                    if(com!==''){
+                        com();
+                    }
+                }
+            }
+        }
+    }
+</script>
+var xml=new
+</body>
+</html>

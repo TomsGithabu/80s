@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p span{
+            background: #666;
+        }
+        #main{
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            position: relative;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+            background: green;
+            position: absolute;
+        }
+        #tab1:target, #tab2:target, #tab3:target{
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <span class="tab"><a href="#tab1">11111</a></span>
+            <span class="tab"><a href="#tab2">22222</a></span>
+            <span class="tab"<a href="#tab3">33333</a></span>
+        </p>
+        <div id="main">
+            <div id='tab1' class="main">123123213213213</div>
+            <div id='tab2' class="main">qweqwewq123213213213ewqewq</div>
+            <div id='tab3' class="main">qwewqewqewqewqe</div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
